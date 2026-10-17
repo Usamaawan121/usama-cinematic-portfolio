@@ -1,0 +1,316 @@
+[
+  {
+    "id": "tummly",
+    "title": "Tummly",
+    "category": "Restaurant Management · SaaS",
+    "description": "Tummly is a restaurant-management SaaS product designed around restaurant onboarding, account management, and restaurant / group / location structures. I worked on the application as a full-stack engineer with responsibility across the frontend and backend.",
+    "status": "Client SaaS project",
+    "image": "/projects/tummly.webp",
+    "tech": [
+      "React",
+      "ASP.NET Core",
+      "C#",
+      "SQL Server",
+      "REST APIs",
+      "Figma"
+    ],
+    "sections": [
+      {
+        "heading": "My role",
+        "text": "Full-Stack Developer / Software Engineer"
+      },
+      {
+        "heading": "Architecture",
+        "text": "A React frontend consumes a REST API served by an ASP.NET Core / C# backend, backed by SQL Server. Onboarding runs as a linear workflow — trial request, OTP/email verification, admin review, approval or decline, then a secure registration link that provisions the account and its restaurant / group / location structure."
+      },
+      {
+        "heading": "Scope & engineering focus",
+        "items": [
+          "OTP / email verification and admin approval workflow",
+          "Single-account and multi-account onboarding paths",
+          "Restaurant, group and location management",
+          "Secure registration links generated after admin approval",
+          "Pixel-accurate Figma-to-code frontend implementation"
+        ]
+      },
+      {
+        "heading": "Key engineering decisions",
+        "items": [
+          "Kept onboarding as an explicit, auditable state machine (requested → verified → reviewed → approved) rather than a single form submission",
+          "Separated restaurant, group and location as distinct entities to support both single-location and multi-location operators"
+        ]
+      },
+      {
+        "heading": "Challenges",
+        "items": [
+          "Coordinating an admin-approval step with time-sensitive OTP verification without creating a confusing wait state for applicants",
+          "Translating Figma layouts into responsive, pixel-accurate React components across the onboarding and dashboard flows"
+        ]
+      }
+    ],
+    "repository": "https://github.com/Usamaawan121/Tummly",
+    "group": "Web"
+  },
+  {
+    "id": "eventsphere",
+    "title": "EventSphere",
+    "category": "Event / Expo Management · SaaS",
+    "description": "EventSphere is a full-stack event / expo management platform designed around multiple user roles and real operational workflows: organizers running expos, exhibitors applying and managing booths, and attendees registering and engaging with sessions.",
+    "status": "Development project",
+    "image": "/projects/eventsphere.webp",
+    "tech": [
+      "React",
+      "Vite",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT"
+    ],
+    "sections": [
+      {
+        "heading": "My role",
+        "text": "Full-Stack Developer (MERN)"
+      },
+      {
+        "heading": "Architecture",
+        "text": "A Vite-built React frontend talks to an Express REST API backed by MongoDB. Collections include users, expos, booths, exhibitor applications and profiles, sessions, registrations, bookmarks, messages, notifications, feedback and analytics events, with compound indexes supporting the role-based query patterns."
+      },
+      {
+        "heading": "Scope & engineering focus",
+        "items": [
+          "Role-based access control across organizer, exhibitor and attendee roles",
+          "Expo lifecycle management: draft → published → ongoing → completed, with cancellation support",
+          "Exhibitor applications, booth management and session participation",
+          "Attendee registration, bookmarks, messaging and notifications",
+          "Mongoose schemas with validation, unique constraints and compound indexes"
+        ]
+      },
+      {
+        "heading": "Key engineering decisions",
+        "items": [
+          "Modeled the expo lifecycle as an explicit status field with guarded transitions instead of inferring state from related records",
+          "Used JWT-based route protection per role rather than a single shared permission flag"
+        ]
+      },
+      {
+        "heading": "Challenges",
+        "items": [
+          "Designing a schema that cleanly supports three different user roles interacting with the same expo and booth records",
+          "Keeping notification and messaging logic consistent as new event types and statuses were added"
+        ]
+      }
+    ],
+    "repository": null,
+    "group": "Web"
+  },
+  {
+    "id": "streamscale",
+    "title": "StreamScale",
+    "category": "Video Streaming · Distributed Systems",
+    "description": "StreamScale is a system-design-heavy project exploring a video streaming platform's backend architecture: an API gateway in front of independent services, event-driven communication through Kafka, caching through Redis, and observability through Prometheus and Grafana.",
+    "status": "In development",
+    "image": "/projects/streamscale.webp",
+    "tech": [
+      "Node.js",
+      "Docker",
+      "Docker Compose",
+      "MongoDB",
+      "Redis",
+      "Kafka",
+      "Zookeeper",
+      "Nginx",
+      "Prometheus",
+      "Grafana"
+    ],
+    "sections": [
+      {
+        "heading": "My role",
+        "text": "Backend / Systems Engineer"
+      },
+      {
+        "heading": "Architecture",
+        "text": "Client requests pass through Nginx to an API gateway, which routes to purpose-built microservices (auth, catalog, analytics, recommendation). Services communicate asynchronously through Kafka where appropriate, share a Redis cache, and persist to MongoDB. Background workers handle media-processing workflows. Prometheus scrapes service metrics; Grafana visualizes them."
+      },
+      {
+        "heading": "Scope & engineering focus",
+        "items": [
+          "Nginx-fronted API gateway routing to independent microservices",
+          "Authentication, catalog, analytics and recommendation services",
+          "Kafka-driven event processing and background workers for media/transcoding workflows",
+          "Redis caching layer for frequently accessed catalog data",
+          "Prometheus metrics collection with Grafana dashboards"
+        ]
+      },
+      {
+        "heading": "Key engineering decisions",
+        "items": [
+          "Chose an event-driven pattern over direct service-to-service calls for workflows that don't need a synchronous response",
+          "Kept metrics and dashboards as a first-class part of the architecture rather than an afterthought"
+        ]
+      },
+      {
+        "heading": "Challenges",
+        "items": [
+          "Reasoning about eventual consistency across services that both read and write catalog data",
+          "Structuring Docker Compose so the gateway, services, Kafka/Zookeeper and observability stack start up in a workable order"
+        ]
+      }
+    ],
+    "repository": null,
+    "group": "Systems"
+  },
+  {
+    "id": "verendo",
+    "title": "Verendo",
+    "category": "Full-Stack Application · MERN",
+    "description": "Verendo is a production-oriented full-stack application built to practice and demonstrate clean architecture on the MERN stack — authentication, validated APIs, structured error handling and a deployment-ready client/server split, rather than a single-file tutorial-style build.",
+    "status": "Agency website",
+    "image": "/projects/verendo.webp",
+    "tech": [
+      "React",
+      "Vite",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT"
+    ],
+    "sections": [
+      {
+        "heading": "My role",
+        "text": "Full-Stack Developer (MERN)"
+      },
+      {
+        "heading": "Architecture",
+        "text": "A React/Vite client consumes a versioned Express REST API. Mongoose models enforce schema-level validation; middleware handles authentication, error formatting and request logging. Configuration is environment-driven so the same codebase runs locally and in a deployed environment without code changes."
+      },
+      {
+        "heading": "Scope & engineering focus",
+        "items": [
+          "JWT-based authentication and route-protection middleware",
+          "Request validation and structured, consistent error handling",
+          "Environment-based configuration for local vs. deployed environments",
+          "Clear separation between the API and the client application"
+        ]
+      },
+      {
+        "heading": "Key engineering decisions",
+        "items": [
+          "Centralized error handling in Express middleware instead of repeating try/catch formatting in every route",
+          "Kept the API versioned and client-agnostic so it isn't tightly coupled to any one frontend"
+        ]
+      },
+      {
+        "heading": "Challenges",
+        "items": [
+          "Keeping validation logic consistent between the client form layer and the API layer",
+          "Structuring middleware order correctly so authentication, validation and error handling compose cleanly"
+        ]
+      }
+    ],
+    "repository": null,
+    "group": "Web"
+  },
+  {
+    "id": "usama-ai",
+    "title": "Usama AI",
+    "category": "AI-Powered Application",
+    "description": "Usama AI is an AI engineering project: a full-stack chat application that orchestrates a language model, streams its response back to the client, and augments answers with live web search for questions that need current information.",
+    "status": "In development",
+    "image": "/projects/usama-ai.webp",
+    "tech": [
+      "React",
+      "Node.js",
+      "Express",
+      "Groq",
+      "Tavily",
+      "Server-Sent Events"
+    ],
+    "sections": [
+      {
+        "heading": "My role",
+        "text": "Full-Stack / AI Integration Engineer"
+      },
+      {
+        "heading": "Architecture",
+        "text": "The React client sends a question to an Express API, which calls a web-search provider when the query needs current context, assembles a prompt, and streams the model's response back to the client over Server-Sent Events as it's generated. All provider API keys stay server-side."
+      },
+      {
+        "heading": "Scope & engineering focus",
+        "items": [
+          "Streaming AI responses to the client over Server-Sent Events",
+          "Web-search-augmented answers for queries needing current information",
+          "Server-side API key and secret management (keys never reach the client)",
+          "React chat interface with incremental message rendering"
+        ]
+      },
+      {
+        "heading": "Key engineering decisions",
+        "items": [
+          "Used Server-Sent Events rather than polling so responses render incrementally as the model generates them",
+          "Ran web search as a conditional pre-step rather than on every request, to keep simple questions fast"
+        ]
+      },
+      {
+        "heading": "Challenges",
+        "items": [
+          "Handling partial/interrupted streams gracefully on the client without corrupting the rendered message",
+          "Deciding when a query actually needs a web-search pass versus when the model can answer directly"
+        ]
+      }
+    ],
+    "repository": null,
+    "group": "AI"
+  },
+  {
+    "id": "nexora",
+    "title": "Nexora",
+    "category": "Enterprise Mobile · SaaS",
+    "description": "Nexora is a flagship Flutter/Dart project: a business-operations mobile platform concept connected to a REST backend, covering authentication, dashboards, task and project views, and notifications, structured with a clean, testable architecture.",
+    "status": "Mobile app concept",
+    "image": "/projects/nexora.webp",
+    "tech": [
+      "Flutter",
+      "Dart",
+      "REST APIs",
+      "JWT",
+      "Secure Local Storage"
+    ],
+    "sections": [
+      {
+        "heading": "My role",
+        "text": "Mobile Engineer (Flutter / Dart)"
+      },
+      {
+        "heading": "Architecture",
+        "text": "The UI layer talks to Provider-based state management, which delegates to a repository layer, which in turn calls an API service layer over REST. Folder structure separates core/config, models, services, repositories, providers, screens, widgets, routes and utils, keeping network and presentation concerns independent."
+      },
+      {
+        "heading": "Scope & engineering focus",
+        "items": [
+          "Token-managed authentication state with secure local storage",
+          "Repository-pattern API abstraction between screens and network calls",
+          "Loading, empty and error states handled consistently across screens",
+          "Theme system with dark mode support"
+        ]
+      },
+      {
+        "heading": "Key engineering decisions",
+        "items": [
+          "Used the repository pattern so screens never call the network layer directly, keeping API changes isolated",
+          "Treated loading / empty / error as first-class UI states for every screen rather than an afterthought"
+        ]
+      },
+      {
+        "heading": "Challenges",
+        "items": [
+          "Keeping token refresh and auth state consistent across a multi-screen navigation stack",
+          "Designing a folder architecture that stays legible as more feature screens are added"
+        ]
+      }
+    ],
+    "repository": null,
+    "group": "Mobile"
+  }
+]

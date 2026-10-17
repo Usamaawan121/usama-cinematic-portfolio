@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "building-smarter-ai-tools",
+    "title": "Building Smarter AI Tools for the Future of Scalable Businesses",
+    "category": "Announcement",
+    "image": "/blog/Vc7NO5U278jLe6P4yA7xGGgvE4.avif",
+    "intro": "A useful AI system starts with a clear understanding of the work. The best tools fit into an existing process and help people make progress with less friction.",
+    "sections": [
+      [
+        "Start with the business problem",
+        "Map the recurring decisions, handoffs, and delays in your workflow. Choose one problem with a measurable outcome before introducing new technology. A small, well-defined system is easier to improve than a large collection of disconnected experiments."
+      ],
+      [
+        "Design for people",
+        "Make it clear what the tool can do, which inputs it needs, and when a person should review its output. Predictable interactions help teams build confidence and spot problems early."
+      ],
+      [
+        "Build a feedback loop",
+        "Measure completion time, error rates, and the amount of human review needed. Use those signals to improve the workflow as the team and business change."
+      ]
+    ]
+  },
+  {
+    "slug": "how-to-get-better-results-from-ai",
+    "title": "How to Get 1000% Better Results From AI With Smarter Workflows",
+    "category": "Tips",
+    "image": "/blog/pIt4GsbYWu5BqT0GQoGjB72ym0.avif",
+    "intro": "Better results depend on the structure around your AI tools. Clear inputs, useful context, and a reliable review process matter as much as the model you choose.",
+    "sections": [
+      [
+        "Give every step a purpose",
+        "Separate research, drafting, checking, and delivery. Define what a good output looks like for each step so the system can be evaluated consistently."
+      ],
+      [
+        "Use context carefully",
+        "Provide the relevant source material and explain which constraints matter. Keep sensitive information within the tools and permissions your organization has approved."
+      ],
+      [
+        "Check before you scale",
+        "Test the workflow with realistic examples. Include missing information and unusual cases, then decide where people need to review or override the result."
+      ]
+    ]
+  },
+  {
+    "slug": "how-startups-can-do-more-with-less",
+    "title": "How AI Startups Can Do More With Less Work Using Automation",
+    "category": "Announcement",
+    "image": "/blog/5Y5HD06gLmz1ZXWPKheJFboktnQ.avif",
+    "intro": "Small teams can protect their time by automating repetitive handoffs. The goal is to remove avoidable work while keeping ownership and quality visible.",
+    "sections": [
+      [
+        "Find repeated tasks",
+        "Look for work that follows the same sequence every week: collecting leads, organizing requests, preparing reports, or passing updates between tools."
+      ],
+      [
+        "Connect the tools you have",
+        "Use a single source of truth for important records. Define what happens when a record changes, and make failures easy to see and recover from."
+      ],
+      [
+        "Keep the process simple",
+        "Start with one workflow, document it, and measure the time it saves. Add complexity only when it solves a real problem."
+      ]
+    ]
+  },
+  {
+    "slug": "rise-of-ai-agents-autonomous-systems",
+    "title": "How Autonomous Systems Are Changing Work",
+    "category": "Tips",
+    "image": "/blog/pbksAhLQSkvLSkN4bmLyzlzrPA.avif",
+    "intro": "AI agents can coordinate multiple steps of a task. Useful autonomy comes from a carefully defined scope, reliable tools, and clear points of human oversight.",
+    "sections": [
+      [
+        "Define the boundaries",
+        "Specify what the agent can read, which actions it can take, and when it must ask a person to decide. Permissions should match the task."
+      ],
+      [
+        "Make actions observable",
+        "Keep a record of important decisions and tool actions. Clear status messages and useful logs help people understand what the system is doing."
+      ],
+      [
+        "Improve through evaluation",
+        "Test complete tasks, including failures and recovery. Judge the system by the quality of its outcomes rather than the number of steps it can perform."
+      ]
+    ]
+  },
+  {
+    "slug": "from-chaos-to-clarity-designing-ai-workflows-that-scale",
+    "title": "Designing AI Workflows That Scale & Help You Daily",
+    "category": "Tips",
+    "image": "/blog/pa0FwuOjt0hQMDPRF3HG8SOSqU.avif",
+    "intro": "A scalable workflow is understandable, measurable, and easy to maintain. Start with a clear process and let the technology serve it.",
+    "sections": [
+      [
+        "Map the handoffs",
+        "Document who owns each step, what information is needed, and where work gets delayed. This becomes the foundation for a useful automation plan."
+      ],
+      [
+        "Plan for exceptions",
+        "Decide what happens when data is missing, a tool is unavailable, or a result needs review. A good recovery path is part of the design."
+      ],
+      [
+        "Review the system regularly",
+        "As the business changes, revisit the workflow. Remove unnecessary steps and update the documentation so the team can keep using it confidently."
+      ]
+    ]
+  }
+]

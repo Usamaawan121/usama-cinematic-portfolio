@@ -1,0 +1,4 @@
+import Link from 'next/link';
+import ContactForm from './ContactForm';
+import {profile} from '@/data/profile';
+export default function Contact(){return <section id="contact-section" className="content-section home-contact"><p className="eyebrow">Next chapter</p><h2 className="section-title smaller">Let's build<br/><span className="ghost">what's next.</span></h2><p className="contact-intro">Have a product in mind, an engineering role, or a question about my work? I’d love to hear from you.</p><div className="contact-grid"><ContactForm/><div className="contact-info"><p className="eyebrow">Say hello</p><a href={`mailto:${profile.email}`}>{profile.email}</a><a href={`tel:${profile.phoneHref}`}>{profile.phone}</a><p>{profile.location}<br/>{profile.availability}</p><Link href="/contact" className="outline-pill">All contact details ↗</Link></div></div></section>}
