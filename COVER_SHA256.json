@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "aura-attire",
+    "source": "aura.png",
+    "sha256": "ffe997e7f3b60b55d9b6df96f65649c7633bfefb9bb4400075f720f73b02a3c0"
+  },
+  {
+    "slug": "banking-management",
+    "source": "bank.png",
+    "sha256": "9482369bf10b6f793189c16cf4d5ba9a4430825df7b7528caf2653e75e3c2e75"
+  },
+  {
+    "slug": "bubble-shooter",
+    "source": "bubbel.png",
+    "sha256": "eea6bad33fedf5cf1be62220d7521e40e92505bfd664abcbc210f8b0d4b63003"
+  },
+  {
+    "slug": "ai-chatbot",
+    "source": "chat.png",
+    "sha256": "be62344da45074bf76affae96fe58126c2a77e6318db0855483b0e3e9d6d8445"
+  },
+  {
+    "slug": "documind-enterprise",
+    "source": "docu.png",
+    "sha256": "062bdbdaac7430745f7f364091e8e70166bf6974a850745023034156bdd262ce"
+  },
+  {
+    "slug": "e-commerce-platform",
+    "source": "ecom.png",
+    "sha256": "006ff052aba147147db79c34995a49619e24ecdd5121e36e17e68881580cd95c"
+  },
+  {
+    "slug": "eventsphere",
+    "source": "event.png",
+    "sha256": "9832ff1023245d3d6ad9b3fb239797d1f4d5d2070123339d895fbcffd025adcc"
+  },
+  {
+    "slug": "fleetops-intelligence",
+    "source": "flee.png",
+    "sha256": "dd607359dc3a69214d1d27f68de25b3dd759ebd7cea57337899c686e6f24b465"
+  },
+  {
+    "slug": "gym-fitness",
+    "source": "GYM.png",
+    "sha256": "5be7b866f733c27c490b266896f3bc0ce47a2228a311736862eddb602f1d1165"
+  },
+  {
+    "slug": "lawyer-management",
+    "source": "lawyer.png",
+    "sha256": "bced39cbb1aaf7e44908b5ce8772f77de8486caedeb7fa1eacd2ea9f5b5ed8b1"
+  },
+  {
+    "slug": "netflix-system",
+    "source": "netflix.png",
+    "sha256": "6f10c106e20c5b08fad286dda40f593233fcc12e8654f216b77f14270cad72bb"
+  },
+  {
+    "slug": "nexora",
+    "source": "nexora.png",
+    "sha256": "aadce0c084ee74a0e1301bed3d76f8347f213f0690c374e2bb978fc0fc43096d"
+  },
+  {
+    "slug": "nexusflow",
+    "source": "nexu.png",
+    "sha256": "bd2b6ca875f424f1d0938dcd320b61b650c8e83251bd660d90a8d679e6c5d628"
+  },
+  {
+    "slug": "developer-portfolio",
+    "source": "port.png",
+    "sha256": "70b0c8f13eda514a49c6ee4859eab3836a51cdb9e53aa75187eba4dd6623e7b0"
+  },
+  {
+    "slug": "real-estate",
+    "source": "real.png",
+    "sha256": "31bbdb7f700db03aaaf75655eaa6473785b189d2d3f3b35355b230d42189058b"
+  },
+  {
+    "slug": "restaurant-management",
+    "source": "res.png",
+    "sha256": "0fc23e1e070d64aae3605afdae5055329742970f5fdc7ab600dd2fffbd74ba5e"
+  },
+  {
+    "slug": "saas-dashboard",
+    "source": "SAAS.png",
+    "sha256": "fb0ce43b1264cb58dbfb1898f9c87ff2539e34295b9f0bea59598297ccca4644"
+  },
+  {
+    "slug": "sentinelgrid",
+    "source": "sent.png",
+    "sha256": "aa84ce9b0872d87d59a229d01d01138169856b77a79f47106680dd44160cbf0c"
+  },
+  {
+    "slug": "supplychain-nexus",
+    "source": "supply.png",
+    "sha256": "cfd613f0e40daad4460c4ababab956c76c1b5573599640a02f51e4b192a029d2"
+  },
+  {
+    "slug": "tummly",
+    "source": "tum.png",
+    "sha256": "b1fad784decd5ca3e3c16ad8426660a692957cfdf1c39b41d8f0023ed3d19e0e"
+  },
+  {
+    "slug": "verendo",
+    "source": "veren.png",
+    "sha256": "7edd08871473531f012877899c8b6467de6b51b71f2cf1259dd0f3c8eba2a326"
+  }
+]

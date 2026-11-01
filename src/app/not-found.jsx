@@ -1,2 +1,1 @@
-import Link from 'next/link';
-export default function NotFound(){return <main id="main-content" className="not-found"><p className="eyebrow">404 / Not found</p><h1>This page<br/>isn't here.</h1><Link className="pill" href="/">Back to home ↗</Link></main>}
+import Link from 'next/link';export default function NotFound(){return <main className="inner-page not-found"><p className="eyebrow gold">404 / PAGE NOT FOUND</p><h1>This route<br/><em>isn't here.</em></h1><Link className="button button-primary" href="/">RETURN HOME ↗</Link></main>}

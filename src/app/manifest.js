@@ -1,1 +1,0 @@
-export default function manifest(){return {name:'Muhammad Usama — Portfolio',short_name:'Usama',description:'Full-Stack Software Engineer',start_url:'/',display:'standalone',background_color:'#080808',theme_color:'#ff6b1a',icons:[{src:'/icon.svg',sizes:'any',type:'image/svg+xml'}]}}

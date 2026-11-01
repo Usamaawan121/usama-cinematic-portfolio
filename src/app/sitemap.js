@@ -1,3 +1,2 @@
-import posts from '@/data/posts.json';
-import projects from '@/data/projects.json';
-export default function sitemap(){const base=process.env.NEXT_PUBLIC_SITE_URL;if(!base)return [];return ['','/about','/projects','/blog','/contact',...projects.map(p=>`/projects/${p.id}`),...posts.map(p=>`/blog/${p.slug}`)].map(path=>({url:`${base.replace(/\/$/,'')}${path}`}))}
+import {projects} from '@/data/projects';
+export default function sitemap(){const origin='https://usama-cinematic-portfolio.vercel.app';const routes=['/','/work','/about','/skills','/experience','/contact',...projects.map(p=>'/work/'+p.slug)];return routes.map(route=>({url:origin+route,lastModified:new Date(),changeFrequency:route==='/'?'monthly':'yearly',priority:route==='/'?1:route==='/work'?.8:.65}))}
